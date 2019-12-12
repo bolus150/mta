@@ -323,3 +323,18 @@ require get_template_directory() . '/inc/template-tags.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+/**
+ *  Custom post-types
+ */
+require get_template_directory() . '/functions/post-types/core_post_type.php';
+
+/**
+ *  Custom sitebars
+ */
+require get_template_directory() . '/functions/sidebars/core_sidebars.php';
+
+/**
+ *  Custom elementor element
+ */
+require get_template_directory() . '/functions/elementor/core_elementor.php';
